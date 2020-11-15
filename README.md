@@ -10,5 +10,5 @@ cd Docker-Practice
 #Login For Private Docker Repository
 docker login
 docker pull ye0108/docker-practice
-docker run -p 80:80 -v /home/Docker-Practice/Project:/var/www/html docker-practice
+docker run -p 80:80 -v /home/Docker-Practice/Project:/var/www/html ye0108/docker-practice
 </pre>
